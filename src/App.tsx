@@ -1,5 +1,4 @@
 import React from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
@@ -35,14 +34,6 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
       <h1>#✂️</h1>
       <div className="text-block-container">
         <textarea
@@ -58,7 +49,7 @@ function App() {
       </div>
       <div>
         <button title="remove hashtags" onClick={onClickRemove}>
-          ✂️
+          DO IT
         </button>
       </div>
       <div className="card">
